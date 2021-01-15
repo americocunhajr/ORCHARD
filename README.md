@@ -38,7 +38,7 @@ We kindly ask users to cite the following references in any publications reporti
 
 @incollection{CunhaJr2018RTANM,
    author    = {A. {Cunha~Jr} and J. L. P. Felix and J. M. Balthazar},
-   title     = {{E}xploring the {N}onlinear {S}tochastic {D}ynamics of an {O}rchard {S}prayer {T}ower {M}oving {T}hrough an {I}rregular {T}errain},
+   title     = {Exploring the {N}onlinear {S}tochastic {D}ynamics of an {O}rchard {S}prayer {T}ower {M}oving {T}hrough an {I}rregular {T}errain},
    editor    = {M. Belhaq},
    booktitle = {Recent Trends in Applied Nonlinear Mechanics and Physics: Selected papers from CSNDD 2016 (Springer Proceedings in Physics)},
    publisher = {Springer},
