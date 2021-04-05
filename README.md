@@ -1,7 +1,7 @@
 
 <img src="logo/ORCHARD.png" width="40%">
 
-**ORCHARD - Orchard Sprayer Tower Dynamics** is an easy to run code for simulation of the nonlinear stochastic dynamics of an orchard sprayer tower. The implementation follows an educational style, to make its use very intuitive.
+**ORCHARD - Orchard Sprayer Tower Dynamics** is an easy-to-run code for simulation of the nonlinear stochastic dynamics of an orchard sprayer tower. The implementation follows an educational style, to make its use very intuitive.
 
 ## Software History
 
