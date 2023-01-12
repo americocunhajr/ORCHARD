@@ -15,7 +15,7 @@ This code was developed to conduct numerical simulations related to the stochast
 **ORCHARD** routines are commented in order to explain their functionality to the final user. Each routine has a short description about its purpose, and a list of inputs and/or outputs.
 
 ## Authors
-- Americo Cunha
+- Americo Cunha Jr
 - Jorge Felix
 - José Manoel Balthazar
 
