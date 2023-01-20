@@ -1,14 +1,14 @@
 
 <img src="logo/ORCHARD.png" width="40%">
 
-**ORCHARD - Orchard Sprayer Tower Dynamics** is an easy-to-run code for simulation of the nonlinear stochastic dynamics of an orchard sprayer tower. The implementation follows an educational style, to make its use very intuitive.
+**ORCHARD - Orchard Sprayer Tower Dynamics** is an easy-to-run code for simulation of the nonlinear stochastic dynamics of an orchard sprayer tower moving on an irregular terrain, which is emulated by stationary Gaussian random process. The implementation follows an educational style, to make its use very intuitive.
 
 ## Software History
 
-This code was developed to conduct numerical simulations related to the stochastic simulation of an orchard sprayer tower moving on an irregular terrain emulated by a stationary Gaussian random process. The underlying results are reported in the following works:
+The code is a result of following works:
 - *A. Cunha Jr, J. L. P. Felix, and J. M. Balthazar, Quantification of parametric uncertainties induced by irregular soil loading in orchard tower sprayer nonlinear dynamics, Journal of Sound and Vibration, vol. 408, pp. 252-269, 2017 https://doi.org/10.1016/j.jsv.2017.07.023*
 - *A. Cunha Jr, J. L. P. Felix, and J. M. Balthazar, Exploring the nonlinear stochastic dynamics of an orchard sprayer tower moving through an irregular terrain, In: Mohamed Belhaq. (Org.). Recent Trends in Applied Nonlinear Mechanics and Physics. 1ed.: Springer International Publishing, p. 203-213, 2018 http://dx.doi.org/10.1007/978-3-319-63937-6_11*
-
+- *R. N. Silva et al., On a Vehicular Suspension for a Non-ideal and Nonlinear Orchard Tower Sprayer Through an Inverted Pendulum Using Reologic Magneto (MR), In: J. M. Balthazar, Nonlinear Vibrations Excited by Limited Power Sources, Springer Cham, 2022 https://doi.org/10.1007/978-3-030-96603-4_10*
 
 ## Documentation
 
@@ -24,6 +24,7 @@ This code was developed to conduct numerical simulations related to the stochast
 We kindly ask users to cite the following references in any publications reporting work done with **ORCHARD**:
 - *A. Cunha Jr, J. L. P. Felix, and J. M. Balthazar, Quantification of parametric uncertainties induced by irregular soil loading in orchard tower sprayer nonlinear dynamics, Journal of Sound and Vibration, vol. 408, pp. 252-269, 2017 https://doi.org/10.1016/j.jsv.2017.07.023*
 - *A. Cunha Jr, J. L. P. Felix, and J. M. Balthazar, Exploring the nonlinear stochastic dynamics of an orchard sprayer tower moving through an irregular terrain, In: Mohamed Belhaq. (Org.). Recent Trends in Applied Nonlinear Mechanics and Physics. 1ed.: Springer International Publishing, p. 203-213, 2018 http://dx.doi.org/10.1007/978-3-319-63937-6_11*
+- *R. N. Silva et al., On a Vehicular Suspension for a Non-ideal and Nonlinear Orchard Tower Sprayer Through an Inverted Pendulum Using Reologic Magneto (MR), In: J. M. Balthazar, Nonlinear Vibrations Excited by Limited Power Sources, Springer Cham, p. 151-173, 2022 https://doi.org/10.1007/978-3-030-96603-4_10*
 
 ```
 @article{cunhajr2017p252,
@@ -33,7 +34,7 @@ We kindly ask users to cite the following references in any publications reporti
    year    = {2017},
    volume  = {408},
    pages   = {252-269},
-   doi     = {http://dx.doi.org/10.1016/j.jsv.2017.07.023},
+   doi     = {10.1016/j.jsv.2017.07.023},
 }
 ```
 
@@ -47,7 +48,21 @@ We kindly ask users to cite the following references in any publications reporti
    address   = {Cham},
    year      = {2018},
    pages     = {203-213},
-   doi       = {http://dx.doi.org/10.1007/978-3-319-63937-6_11},
+   doi       = {10.1007/978-3-319-63937-6_11},
+}
+```
+
+```
+@incollection{Silva2022NVELPS,
+   author    = {R. N. Silva et al.},
+   title     = {On a Vehicular Suspension for a Non-ideal and Nonlinear Orchard Tower Sprayer Through an Inverted Pendulum Using Reologic Magneto {(MR)}},
+   editor    = {M. Belhaq},
+   booktitle = {Nonlinear Vibrations Excited by Limited Power Sources},
+   publisher = {Springer},
+   address   = {Cham},
+   year      = {2022},
+   pages     = {151-173},
+   doi       = {10.1007/978-3-030-96603-4_10},
 }
 ```
 
