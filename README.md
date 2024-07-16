@@ -1,18 +1,66 @@
-
 <img src="logo/ORCHARD.png" width="40%">
 
-**ORCHARD: Orchard Sprayer Tower Dynamics** is a Matlab code for simulation of the nonlinear stochastic dynamics of an orchard sprayer tower moving on an irregular terrain, which is emulated by stationary Gaussian random process. The implementation follows an educational style, to make its use very intuitive.
+# ORCHARD: Orchard Sprayer Tower Dynamics
 
-## Software History
+**ORCHARD** is a comprehensive Matlab tool designed to simulate and animate the nonlinear stochastic dynamics of an orchard sprayer tower moving on an irregular terrain. The terrain is emulated by a stationary Gaussian random process, providing realistic and valuable insights into the dynamic behavior of the sprayer tower. Developed with an educational approach, **ORCHARD** is intuitive and user-friendly, making it accessible for researchers and engineers in mechanical and agricultural engineering.
 
-The code is a result of following works:
-- *A. Cunha Jr, J. L. P. Felix, and J. M. Balthazar, Quantification of parametric uncertainties induced by irregular soil loading in orchard tower sprayer nonlinear dynamics, Journal of Sound and Vibration, vol. 408, pp. 252-269, 2017 https://doi.org/10.1016/j.jsv.2017.07.023*
-- *A. Cunha Jr, J. L. P. Felix, and J. M. Balthazar, Exploring the nonlinear stochastic dynamics of an orchard sprayer tower moving through an irregular terrain, In: Mohamed Belhaq. (Org.). Recent Trends in Applied Nonlinear Mechanics and Physics. 1ed.: Springer International Publishing, p. 203-213, 2018 http://dx.doi.org/10.1007/978-3-319-63937-6_11*
-- *R. N. Silva et al., On a Vehicular Suspension for a Non-ideal and Nonlinear Orchard Tower Sprayer Through an Inverted Pendulum Using Reologic Magneto (MR), In: J. M. Balthazar, Nonlinear Vibrations Excited by Limited Power Sources, Springer Cham, 2022 https://doi.org/10.1007/978-3-030-96603-4_10*
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Usage](#usage)
+- [Documentation](#documentation)
+- [Authors](#authors)
+- [Citing ORCHARD](#citing-orchard)
+- [License](#license)
+- [Institutional Support](#institutional-support)
+- [Funding](#funding)
+
+## Overview
+**ORCHARD** was developed to conduct numerical simulations related to the stochastic dynamics of an orchard sprayer tower moving through irregular terrain. The results have been published in several peer-reviewed works:
+- **A. Cunha Jr, J. L. P. Felix, and J. M. Balthazar**, *Quantification of parametric uncertainties induced by irregular soil loading in orchard tower sprayer nonlinear dynamics*, Journal of Sound and Vibration, vol. 408, pp. 252-269, 2017. [DOI](https://doi.org/10.1016/j.jsv.2017.07.023)
+- **A. Cunha Jr, J. L. P. Felix, and J. M. Balthazar**, *Exploring the nonlinear stochastic dynamics of an orchard sprayer tower moving through an irregular terrain*, In: Mohamed Belhaq. (Org.). Recent Trends in Applied Nonlinear Mechanics and Physics. 1ed.: Springer International Publishing, p. 203-213, 2018. [DOI](http://dx.doi.org/10.1007/978-3-319-63937-6_11)
+- **R. N. Silva et al.**, *On a Vehicular Suspension for a Non-ideal and Nonlinear Orchard Tower Sprayer Through an Inverted Pendulum Using Reologic Magneto (MR)*, In: J. M. Balthazar, Nonlinear Vibrations Excited by Limited Power Sources, Springer Cham, 2022. [DOI](https://doi.org/10.1007/978-3-030-96603-4_10)
+
+## Features
+- Simulates nonlinear stochastic dynamics of orchard sprayer towers
+- Emulates irregular terrain using stationary Gaussian random processes
+- Animates system dynamics in Matlab for visual analysis
+- Intuitive Matlab implementation
+- Educational style code for easy understanding
+
+## Usage
+To install and get started with **ORCHARD**, follow these steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ORCHARD.git
+2. Navigate to the code directory:
+   ```bash
+   cd ORCHARD/ORCHARD-1.0
+3. For a deterministic simulation with sinusoidal excitation, execute:
+   ```bash
+   main_orchard_ipv_sinusoidal
+4. For a stochastic simulation with random excitation, execute:
+   ```bash
+   main_orchard_ipv_kl
+5. For Fourier analysis in the case of stochastic excitation, execute:
+   ```bash
+   main_orchard_fourier_kl
+6. For Monte Carlo simulation with sinusoidal excitation, execute:
+   ```bash
+   main_orchard_mc_sinusoidal
+6. For Monte Carlo simulation with random sinusoidal excitation, execute:
+   ```bash
+   main_orchard_mc_sinusoidal
+7. For Monte Carlo simulation with stochastic excitation, execute:
+   ```bash
+   main_orchard_mc_kl
+8. For a parametric study changing the stiffness, execute:
+   ```bash
+   main_orchard_ps_sinusoidal
+   ```
 
 ## Documentation
-
-**ORCHARD** routines are commented in order to explain their functionality to the final user. Each routine has a short description about its purpose, and a list of inputs and/or outputs.
+The routines in **ORCHARD** are well-commented to explain their functionality. Each routine includes a description of its purpose, as well as inputs and outputs.
 
 ## Authors
 - Americo Cunha Jr
