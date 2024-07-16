@@ -33,28 +33,36 @@ To install and get started with **ORCHARD**, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/ORCHARD.git
+   ```
 2. Navigate to the code directory:
    ```bash
    cd ORCHARD/ORCHARD-1.0
+   ```
 3. For a deterministic simulation with sinusoidal excitation, execute:
    ```bash
    main_orchard_ipv_sinusoidal
+   ```
 4. For a stochastic simulation with random excitation, execute:
    ```bash
    main_orchard_ipv_kl
+   ```
 5. For Fourier analysis in the case of stochastic excitation, execute:
    ```bash
    main_orchard_fourier_kl
+   ```
 6. For Monte Carlo simulation with sinusoidal excitation, execute:
    ```bash
    main_orchard_mc_sinusoidal
-6. For Monte Carlo simulation with random sinusoidal excitation, execute:
+   ```
+7. For Monte Carlo simulation with random sinusoidal excitation, execute:
    ```bash
    main_orchard_mc_sinusoidal
-7. For Monte Carlo simulation with stochastic excitation, execute:
+   ```
+8. For Monte Carlo simulation with stochastic excitation, execute:
    ```bash
    main_orchard_mc_kl
-8. For a parametric study changing the stiffness, execute:
+   ```
+9. For a parametric study changing the stiffness, execute:
    ```bash
    main_orchard_ps_sinusoidal
    ```
