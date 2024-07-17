@@ -30,7 +30,7 @@
 To install and get started with **ORCHARD**, follow these steps:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ORCHARD.git
+   git clone https://github.com/americocunhajr/ORCHARD.git
    ```
 2. Navigate to the code directory:
    ```bash
