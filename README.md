@@ -1,8 +1,8 @@
-<img src="logo/ORCHARD.png" width="40%">
+## Orchard Sprayer Tower Dynamics
 
 **ORCHARD: Orchard Sprayer Tower Dynamics** is a comprehensive Matlab tool designed to simulate and animate the nonlinear stochastic dynamics of an orchard sprayer tower moving on an irregular terrain. The terrain is emulated by a stationary Gaussian random process, providing realistic and valuable insights into the dynamic behavior of the sprayer tower. Developed with an educational approach, **ORCHARD** is intuitive and user-friendly, making it accessible for researchers and engineers in mechanical and agricultural engineering.
 
-## Table of Contents
+### Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Usage](#usage)
@@ -13,21 +13,21 @@
 - [Institutional Support](#institutional-support)
 - [Funding](#funding)
 
-## Overview
+### Overview
 **ORCHARD** was developed to conduct numerical simulations related to the stochastic dynamics of an orchard sprayer tower moving through irregular terrain. The results have been published in several peer-reviewed works:
 - **A. Cunha Jr, J. L. P. Felix, and J. M. Balthazar**, *Quantification of parametric uncertainties induced by irregular soil loading in orchard tower sprayer nonlinear dynamics*, Journal of Sound and Vibration, vol. 408, pp. 252-269, 2017. [DOI](https://doi.org/10.1016/j.jsv.2017.07.023)
 - **A. Cunha Jr, J. L. P. Felix, and J. M. Balthazar**, *Exploring the nonlinear stochastic dynamics of an orchard sprayer tower moving through an irregular terrain*, In: Mohamed Belhaq. (Org.). Recent Trends in Applied Nonlinear Mechanics and Physics. 1ed.: Springer International Publishing, p. 203-213, 2018. [DOI](http://dx.doi.org/10.1007/978-3-319-63937-6_11)
 - **R. N. Silva et al.**, *On a Vehicular Suspension for a Non-ideal and Nonlinear Orchard Tower Sprayer Through an Inverted Pendulum Using Reologic Magneto (MR)*, In: J. M. Balthazar, Nonlinear Vibrations Excited by Limited Power Sources, Springer Cham, 2022. [DOI](https://doi.org/10.1007/978-3-030-96603-4_10)
 
-## Features
+### Features
 - Simulates nonlinear stochastic dynamics of orchard sprayer towers
 - Emulates irregular terrain using stationary Gaussian random processes
 - Animates system dynamics in Matlab for visual analysis
 - Intuitive Matlab implementation
 - Educational style code for easy understanding
 
-## Usage
-To install and get started with **ORCHARD**, follow these steps:
+### Usage
+To get started with **ORCHARD**, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/americocunhajr/ORCHARD.git
@@ -65,17 +65,16 @@ To install and get started with **ORCHARD**, follow these steps:
    main_orchard_ps_sinusoidal
    ```
 
-## Documentation
+### Documentation
 The routines in **ORCHARD** are well-commented to explain their functionality. Each routine includes a description of its purpose, as well as inputs and outputs.
 
-## Authors
+### Authors
 - Americo Cunha Jr
 - Jorge Felix
 - José Manoel Balthazar
 
-## Citing ORCHARD
-
-We kindly ask users to cite the following references in any publications reporting work done with **ORCHARD**:
+### Citing ORCHARD
+If you use **ORCHARD** in your research, please cite the following publication:
 - *A. Cunha Jr, J. L. P. Felix, and J. M. Balthazar, Quantification of parametric uncertainties induced by irregular soil loading in orchard tower sprayer nonlinear dynamics, Journal of Sound and Vibration, vol. 408, pp. 252-269, 2017 https://doi.org/10.1016/j.jsv.2017.07.023*
 - *A. Cunha Jr, J. L. P. Felix, and J. M. Balthazar, Exploring the nonlinear stochastic dynamics of an orchard sprayer tower moving through an irregular terrain, In: Mohamed Belhaq. (Org.). Recent Trends in Applied Nonlinear Mechanics and Physics. 1ed.: Springer International Publishing, p. 203-213, 2018 http://dx.doi.org/10.1007/978-3-319-63937-6_11*
 - *R. N. Silva et al., On a Vehicular Suspension for a Non-ideal and Nonlinear Orchard Tower Sprayer Through an Inverted Pendulum Using Reologic Magneto (MR), In: J. M. Balthazar, Nonlinear Vibrations Excited by Limited Power Sources, Springer Cham, p. 151-173, 2022 https://doi.org/10.1007/978-3-030-96603-4_10*
@@ -120,16 +119,16 @@ We kindly ask users to cite the following references in any publications reporti
 }
 ```
 
-## License
+### License
 
 **ORCHARD** is released under the MIT license. See the LICENSE file for details. All new contributions must be made under the MIT license.
 
 <img src="logo/mit_license_red.png" width="10%"> 
 
-## Institutional support
+### Institutional support
 
 <img src="logo/logo_uerj_color.jpeg" width="10%"> &nbsp; &nbsp; <img src="logo/logo_uffs_color.png" width="25%"> &nbsp; &nbsp; <img src="logo/logo_unesp_color.png" width="20%"> 
 
-## Funding
+### Funding
 
 <img src="logo/faperj.jpg" width="20%"> &nbsp; &nbsp; <img src="logo/cnpq.png" width="20%"> &nbsp; &nbsp; <img src="logo/capes.png" width="10%">
