@@ -2,6 +2,10 @@
 
 **ORCHARD: Orchard Sprayer Tower Dynamics** is a comprehensive Matlab tool designed to simulate and animate the nonlinear stochastic dynamics of an orchard sprayer tower moving on an irregular terrain. The terrain is emulated by a stationary Gaussian random process, providing realistic and valuable insights into the dynamic behavior of the sprayer tower. Developed with an educational approach, **ORCHARD** is intuitive and user-friendly, making it accessible for researchers and engineers in mechanical and agricultural engineering.
 
+<p align="center">
+<img src="logo/OrchardTower.png" width="50%">
+</p>
+
 ### Table of Contents
 - [Overview](#overview)
 - [Features](#features)
